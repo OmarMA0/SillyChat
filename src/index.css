@@ -1,0 +1,5 @@
+@import url("https://fonts.google.com/specimen/Old+Standard+TT");
+@import "tailwindcss";
+@theme {
+  --font-display: "Old Standard TT"; 
+}
