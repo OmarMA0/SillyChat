@@ -20,6 +20,7 @@ const handleSubmit = async (e)=> {
     setIsLoading(true);
     
     try {
+        console.log(formData)
         const response = await fetch('/api/login', { // Changed from '/api/signup' to '/api/login'
             method: 'POST',
             headers: {
